@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Educamente — Clases de regularización</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header id="head">
+  <div class="bar">
+    <a href="#" class="logo"><span>🌟</span>Educamente</a>
+    <nav id="nav">
+      <a href="#modalidades">Modalidades</a>
+      <a href="#edades">Edades</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button id="menu-btn" aria-label="Menú">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Regularización con cariño y método</p>
+    <h1>Aprender puede ser <span class="hl">divertido</span> para tu hij@</h1>
+    <p>Clases de apoyo escolar de 4 a 12 años, guiadas por una psicóloga educativa. Refuerzo académico, hábitos de estudio y mucha paciencia.</p>
+    <div class="btnrow">
+      <a href="#modalidades" class="btn btn--grape">Ver modalidades</a>
+      <a href="#sobre-mi" class="btn btn--outline">Conoce a Fátima</a>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <span>🎯 Enfoque personalizado</span>
+    <span>🧠 Psicología educativa</span>
+    <span>💛 Clases 1 a 1</span>
+  </div>
+</div>
+
+<section id="modalidades">
+  <h2>Elige tu modalidad</h2>
+  <p class="sub">Selecciona cómo prefieres tomar las clases y te escribimos por WhatsApp para armar tu horario.</p>
+  <div class="modes">
+    <div class="mode mode--online" onclick="pedirInfo('Online')">
+      <div class="ico">💻</div>
+      <h3>Online</h3>
+      <p>Clases en vivo por videollamada, desde donde estén.</p>
+      <span class="go">Pedir información →</span>
+    </div>
+    <div class="mode mode--presencial" onclick="pedirInfo('Presencial')">
+      <div class="ico">🏠</div>
+      <h3>Presencial</h3>
+      <p>Clases cara a cara, ideal para reforzar de cerca.</p>
+      <span class="go">Pedir información →</span>
+    </div>
+  </div>
+</section>
+
+<div class="strip" style="background:var(--sky)" id="edades">
+  <div class="wrap" style="color:#0a3a52">
+    <span>👧 Preescolar y primaria</span>
+    <span>👦 Hasta secundaria (12 años)</span>
+    <span>📚 Grupos muy reducidos</span>
+  </div>
+</div>
+
+<section>
+  <h2>Edades que atendemos</h2>
+  <div class="ages">
+    <div class="age"><div class="circle" style="background:var(--sun)">4-6</div><p>Preescolar</p></div>
+    <div class="age"><div class="circle" style="background:var(--coral)">7-9</div><p>Primaria baja</p></div>
+    <div class="age"><div class="circle" style="background:var(--sky)">10-12</div><p>Primaria alta</p></div>
+  </div>
+</section>
+
+<section class="alt" id="sobre-mi" style="background:#fff6de">
+  <div class="about wrap">
+    <div class="about__pic">👩‍🏫</div>
+    <div>
+      <h2>Sobre Fátima</h2>
+      <p>Fátima Mariel Hernández Solís es psicóloga educativa y actualmente está desarrollando su tesis en el área. Combina herramientas psicopedagógicas con paciencia y calidez para que cada niño avance a su propio ritmo.</p>
+      <span class="tag">Psicóloga educativa</span>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="contact-box">
+    <h2>¿Listos para empezar?</h2>
+    <p class="sub" style="margin-bottom:24px">Escríbenos por WhatsApp y armamos juntos el plan ideal para tu hij@.</p>
+    <a class="btn btn--grape" href="#" id="cta-general" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <b>Educamente</b>
+  Clases de regularización · 4 a 12 años · Fátima Mariel Hernández Solís
+  <div style="margin-top:14px;opacity:.7;font-size:.75rem">Desarrollo: Jorge Vera | Prexel Tecnologías</div>
+</footer>
+
+<a class="float-wa" id="float-wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
